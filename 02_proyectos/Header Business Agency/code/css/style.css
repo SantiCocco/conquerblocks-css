@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@100;200;400&display=swap');
+
+
+div.page{
+  max-width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+body {
+  background-image: url("../img/women@2x.jpg");
+  background-position: top right -40px;
+  background-size: 900px;
+  background-repeat: no-repeat;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+  padding-right: 40px;
+  align-items: center;
+}
+
+header figcaption {
+  display: none;
+}
+
+header figure {
+  margin: 0;
+  }
+
+header figure img {
+width: 171px;
+}
+
+header nav ul {
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 56px;
+margin: 0;
+padding: 0;
+list-style: none;
+}
+
+header nav ul li a {
+text-decoration: none;
+color: #424241;
+font-family: 'Poppins', sans-serif;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+div.hero_content {
+  max-width: 50%;
+  margin-bottom: 40px;
+}
+
+section.hero h1 {
+color:#424241;
+text-transform: uppercase;
+font-family: 'Bebas Neue', sans-serif;
+font-size: 96px;
+font-style: normal;
+font-weight: 400;
+line-height: 90px;
+margin: 0px;
+margin-top: 90px;
+margin-bottom: 30px;
+}
+
+span.green{
+  color:#7EDAD2;
+}
+
+section.hero .hero_content p{
+color: #909090;
+font-family: 'Poppins', sans-serif;
+font-size: 19px;
+font-style: normal;
+font-weight: 400;
+line-height: 40px;
+margin-top: 0;
+margin-bottom: 30px;
+max-width: 80%;
+}
+
+section.hero a {
+  display: inline-block;
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  color: #FAFAFA;
+  background-color: #7EDAD2;
+  text-decoration: none;
+  padding: 12px 18px;
+}
+
+section.numbers{
+  display: flex;
+  justify-content: space-between;
+  max-width: 38%;
+  margin-bottom: 40px;
+}
+
+section.numbers div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section.numbers div {
+color: #909090;
+font-family: 'Poppins', sans-serif;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+section.numbers div span.number {
+  color: #424241;
+  font-size: 40px;
+  font-family: 'Bebas Neue', sans-serif;
+  margin-bottom: 0;
+}
+
+.categories {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.categories article {
+  background-color: white;
+  padding: 32px;
+}
+
+.categories article h3 {
+color: #424241;
+font-family: 'Poppins', sans-serif;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin: 8px 0px;
+}
+
+.categories article p {
+color: #909090;
+font-family: 'Poppins', sans-serif;
+font-size: 14px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+margin-bottom: 0;
+}
